@@ -1,0 +1,11 @@
+py2neo
+scipy
+ahocorasick
+torch
+transformers
+openai
+zhipuai
+websocket
+base64
+modelscope
+FlagEmbedding
