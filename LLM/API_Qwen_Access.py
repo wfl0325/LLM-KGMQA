@@ -1,6 +1,8 @@
 import requests
 
 
+
+# Autodl 远程访问方式
 def chat_with_model(text, url="http://127.0.0.1:6006/chat"):
     """
     访问 RESTful 接口，与模型对话。

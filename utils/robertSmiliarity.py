@@ -48,14 +48,5 @@ def bert_cos_similarity(text1, text2):
 
     return similarity
 
-if __name__=='__main__':
-    # text1 = "服务区至高新之间车流量大通行缓慢雁塔入口车多缓行"
-    text1 = "阅读理解"
-    text2 = "英语完形填空"
-    # text2 = "反流食管炎"
-    # text2 = "随分而痛"
-    # text2 = "绕城高速早高峰到来目前内环方向曲江服务区至高新之间车流量大通行缓慢雁塔入口车多缓行"
 
-    similarity = bert_cos_similarity(text1, text2)
-    print("相似度：", similarity)
 

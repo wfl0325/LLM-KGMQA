@@ -1,5 +1,5 @@
 import ahocorasick
-town_path = 'D:\\王飞龙\\PostgraduateLife\\论文\KGGPT\\Neo4jQA\\data\\disease.txt'
+town_path = '../data/disease.txt'
 
 
 def build_actree(wordlist):
@@ -36,4 +36,4 @@ def getACTAnswer(text):
     return final_wds
 
 if __name__ == "__main__":
-    getACTAnswer('你是三河古镇吗撒旦是插电')
+    getACTAnswer('荨麻疹的症状有哪些？')
