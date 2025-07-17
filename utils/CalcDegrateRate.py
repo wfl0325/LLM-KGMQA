@@ -121,7 +121,7 @@ if __name__=='__main__':
     # re = calcInter('小儿内科', 'Tail')  # '小儿单纯性血尿',
     print(re)
     rank()
-    # cala()
+    cala()
 
 
 

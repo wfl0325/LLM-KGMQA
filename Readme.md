@@ -53,7 +53,11 @@ LLM-KGMQA is a novel multi-hop question-answering system designed to enhance the
    ```bash
    pip install -r requirements.txt
    ```
-
+3. How to run:
+    ```bash
+    python a_main_entry_point.py
+    ```
+   
 ## Examples
 
 1. **Example Question**: "我发现我有脑错裂伤怎么办?"
