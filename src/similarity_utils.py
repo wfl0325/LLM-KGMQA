@@ -1,5 +1,5 @@
 # src/similarity_utils.py
-from ..smiliarity import bert_cos_similarity
+from smiliarity import bert_cos_similarity
 def calculate_cosine_similarity(text1: str, text2: str) -> float:
     """
     计算两个文本之间的BERT余弦相似度。
